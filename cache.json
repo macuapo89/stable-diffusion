@@ -1,0 +1,264 @@
+{
+    "safetensors-metadata": {
+        "checkpoint/v1-5-pruned-emaonly.safetensors": {
+            "mtime": 1695194908.1669774,
+            "value": {
+                "format": "pt"
+            }
+        },
+        "checkpoint/epicrealism_naturalSinRC1VAE.safetensors": {
+            "mtime": 1695197566.5799577,
+            "value": {}
+        },
+        "checkpoint/deliberate_v2.safetensors": {
+            "mtime": 1695203438.974065,
+            "value": {}
+        },
+        "checkpoint/realisticVisionV51_v20Novae.safetensors": {
+            "mtime": 1695203999.3299358,
+            "value": {}
+        },
+        "checkpoint/absolutereality_v181.safetensors": {
+            "mtime": 1695217477.4871361,
+            "value": {}
+        },
+        "checkpoint/Mischione realism.safetensors": {
+            "mtime": 1695222031.8510764,
+            "value": {
+                "format": "pt",
+                "sd_merge_recipe": {
+                    "type": "webui",
+                    "primary_model_hash": "84d76a0328ee5a1a2a1d466ba7478ab59183e3fea385441528aa4c5d567fd43e",
+                    "secondary_model_hash": "c0d1994c73d784a17a5b335ae8bda02dcc8dd2fc5f5dbf55169d5aab385e53f2",
+                    "tertiary_model_hash": null,
+                    "interp_method": "Weighted sum",
+                    "multiplier": 0.3,
+                    "save_as_half": false,
+                    "custom_name": "Mischione realism",
+                    "config_source": 0,
+                    "bake_in_vae": "None",
+                    "discard_weights": "",
+                    "is_inpainting": false,
+                    "is_instruct_pix2pix": false
+                },
+                "sd_merge_models": {
+                    "84d76a0328ee5a1a2a1d466ba7478ab59183e3fea385441528aa4c5d567fd43e": {
+                        "name": "epicrealism_naturalSinRC1VAE.safetensors",
+                        "legacy_hash": "90a4c676",
+                        "sd_merge_recipe": null
+                    },
+                    "c0d1994c73d784a17a5b335ae8bda02dcc8dd2fc5f5dbf55169d5aab385e53f2": {
+                        "name": "realisticVisionV51_v20Novae.safetensors",
+                        "legacy_hash": "69677096",
+                        "sd_merge_recipe": null
+                    }
+                }
+            }
+        },
+        "checkpoint/realisticFreedomSFW_alpha.safetensors": {
+            "mtime": 1695225146.6248417,
+            "value": {}
+        },
+        "checkpoint/zelda_shorthair_v5.safetensors": {
+            "mtime": 1695314817.6663902,
+            "value": {
+                "ss_batch_size_per_device": "2",
+                "ss_bucket_info": "null",
+                "ss_bucket_no_upscale": "False",
+                "ss_cache_latents": "True",
+                "ss_caption_dropout_every_n_epochs": "0",
+                "ss_caption_dropout_rate": "0.0",
+                "ss_caption_tag_dropout_rate": "0.0",
+                "ss_clip_skip": "2",
+                "ss_color_aug": "False",
+                "ss_dataset_dirs": {
+                    "50_zelda": {
+                        "n_repeats": 50,
+                        "img_count": 28
+                    }
+                },
+                "ss_enable_bucket": "False",
+                "ss_epoch": "1",
+                "ss_face_crop_aug_range": "None",
+                "ss_flip_aug": "False",
+                "ss_full_fp16": "False",
+                "ss_gradient_accumulation_steps": "1",
+                "ss_gradient_checkpointing": "False",
+                "ss_keep_tokens": "0",
+                "ss_learning_rate": "3.3e-05",
+                "ss_lowram": "False",
+                "ss_lr_scheduler": "cosine_with_restarts",
+                "ss_lr_warmup_steps": "0",
+                "ss_max_bucket_reso": "None",
+                "ss_max_grad_norm": "1.0",
+                "ss_max_token_length": "None",
+                "ss_max_train_steps": "700",
+                "ss_min_bucket_reso": "None",
+                "ss_mixed_precision": "bf16",
+                "ss_network_alpha": "128.0",
+                "ss_network_dim": "128",
+                "ss_network_module": "networks.lora",
+                "ss_new_sd_model_hash": "5493a0ec491f5961dbdc1c861404088a6ae9bd4007f6a3a7c5dee8789cdc1361",
+                "ss_noise_offset": "None",
+                "ss_num_batches_per_epoch": "700",
+                "ss_num_epochs": "1",
+                "ss_num_reg_images": "0",
+                "ss_num_train_images": "1400",
+                "ss_optimizer": "lion_pytorch.lion_pytorch.Lion",
+                "ss_output_name": "zelda_shorthair_v5",
+                "ss_prior_loss_weight": "1.0",
+                "ss_random_crop": "False",
+                "ss_reg_dataset_dirs": {},
+                "ss_resolution": "(768, 768)",
+                "ss_sd_model_hash": "9600da17",
+                "ss_sd_model_name": "abyssorangemix3AOM3_aom3a1b.safetensors",
+                "ss_sd_scripts_commit_hash": "c001c80e02614f17667e6cd52f0365505466d445",
+                "ss_seed": "1234",
+                "ss_session_id": "2888176356",
+                "ss_shuffle_caption": "False",
+                "ss_tag_frequency": {
+                    "50_zelda": {
+                        "zelda\\(princess\\)": 28,
+                        "1girl": 28,
+                        "solo": 28,
+                        "breasts": 4,
+                        "smile": 5,
+                        "simple_background": 18,
+                        "hair_ornament": 25,
+                        "closed_mouth": 5,
+                        "upper_body": 17,
+                        "hairclip": 25,
+                        "cape": 21,
+                        "blue_shirt": 7,
+                        "black_background": 12,
+                        "black_cape": 3,
+                        "hooded_cape": 3,
+                        "looking_at_viewer": 14,
+                        "shirt": 3,
+                        "gloves": 13,
+                        "holding": 6,
+                        "cowboy_shot": 1,
+                        "black_gloves": 5,
+                        "fingerless_gloves": 8,
+                        "fire": 3,
+                        "torch": 5,
+                        "open_mouth": 6,
+                        "parted_lips": 7,
+                        "from_side": 6,
+                        "profile": 6,
+                        "portrait": 4,
+                        "teeth": 1,
+                        "white_background": 9,
+                        "hood": 4,
+                        "lips": 1,
+                        "forehead": 4,
+                        "triforce": 3,
+                        "weapon": 1,
+                        "sword": 1,
+                        "holding_weapon": 1,
+                        "glowing": 1,
+                        "blurry": 2,
+                        "close-up": 1,
+                        "looking_up": 1,
+                        "pants": 2,
+                        "long_sleeves": 4,
+                        "medium_breasts": 1,
+                        "blurry_background": 1,
+                        "outdoors": 1,
+                        "sky": 1,
+                        "day": 1,
+                        "tree": 1,
+                        "blue_sky": 1,
+                        "abs": 1,
+                        "standing": 1,
+                        "full_body": 1,
+                        "boots": 1,
+                        "brown_footwear": 1,
+                        "hood_down": 1,
+                        "staff": 1,
+                        "cloak": 1
+                    }
+                },
+                "ss_text_encoder_lr": "4e-06",
+                "ss_total_batch_size": "2",
+                "ss_training_comment": "None",
+                "ss_training_finished_at": "1684490584.494319",
+                "ss_training_started_at": "1684490319.7946794",
+                "ss_unet_lr": "3.3e-05",
+                "ss_v2": "False",
+                "sshs_legacy_hash": "f08e7d01",
+                "sshs_model_hash": "5eada1eff414ca9459c4704cc41b9614f16b698caf3477fb55285423794d4481"
+            }
+        },
+        "checkpoint/ghostmix_v20Bakedvae.safetensors": {
+            "mtime": 1695315440.583286,
+            "value": {}
+        }
+    },
+    "hashes": {
+        "checkpoint/v1-5-pruned-emaonly.safetensors": {
+            "mtime": 1695194908.1669774,
+            "sha256": "6ce0161689b3853acaa03779ec93eafe75a02f4ced659bee03f50797806fa2fa"
+        },
+        "checkpoint/epicrealism_naturalSinRC1VAE.safetensors": {
+            "mtime": 1695197566.5799577,
+            "sha256": "84d76a0328ee5a1a2a1d466ba7478ab59183e3fea385441528aa4c5d567fd43e"
+        },
+        "checkpoint/deliberate_v2.safetensors": {
+            "mtime": 1695203438.974065,
+            "sha256": "9aba26abdfcd46073e0a1d42027a3a3bcc969f562d58a03637bf0a0ded6586c9"
+        },
+        "checkpoint/realisticVisionV51_v20Novae.safetensors": {
+            "mtime": 1695203999.3299358,
+            "sha256": "c0d1994c73d784a17a5b335ae8bda02dcc8dd2fc5f5dbf55169d5aab385e53f2"
+        },
+        "checkpoint/absolutereality_v181.safetensors": {
+            "mtime": 1695217477.4871361,
+            "sha256": "463d6a9fe8a4b56a4d69ef3692074c0617428dfd8e8f12f9efe3b1e9a71717ce"
+        },
+        "checkpoint/Mischione realism.safetensors": {
+            "mtime": 1695222031.8510764,
+            "sha256": "9f663b188b3d827ab9df5416771c0d876cde4e572e6e05fa3f9379d2db17538e"
+        },
+        "checkpoint/zelda_shorthair_v5.safetensors": {
+            "mtime": 1695314817.6663902,
+            "sha256": "3704ed5bcd7613bd7118dd4f0def9da8f38977c507c3e8d347d2ac0890446e7f"
+        },
+        "checkpoint/ghostmix_v20Bakedvae.safetensors": {
+            "mtime": 1695315440.583286,
+            "sha256": "e3edb8a26f44dfddc124129004b5ded3378be974b8d3bf82f43b9660d416d3d1"
+        }
+    },
+    "extensions-git": {
+        "PromptsBrowser": {
+            "mtime": 1695219938.6174865,
+            "value": {
+                "remote": "https://github.com/AlpacaInTheNight/PromptsBrowser.git",
+                "commit_date": 1694630692,
+                "branch": "main",
+                "commit_hash": "dec69488c6ad9ca1840fc57bb6d1cb8008b8bd6d",
+                "version": "dec69488"
+            }
+        },
+        "sd-webui-vectorscope-cc": {
+            "mtime": 1695219982.4913933,
+            "value": {
+                "remote": "https://github.com/Haoming02/sd-webui-vectorscope-cc.git",
+                "commit_date": 1695181019,
+                "branch": "main",
+                "commit_hash": "c00b03c4e7e46091da92810d1706de219f671859",
+                "version": "c00b03c4"
+            }
+        },
+        "sd-webui-chatgpt": {
+            "mtime": 1695219991.8327518,
+            "value": {
+                "remote": "https://github.com/NON906/sd-webui-chatgpt.git",
+                "commit_date": 1693545867,
+                "branch": "main",
+                "commit_hash": "4c31c5cbe2e46a042eefc8b130bd3b57ff2dcfbc",
+                "version": "4c31c5cb"
+            }
+        }
+    }
+}
